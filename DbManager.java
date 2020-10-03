@@ -8,7 +8,7 @@ public class DbManager {
 	private String user;
 	private String pass;
 	private static final String url = 
-			"jdbc:mysql://localhost:3306/cars?useUnicode=true&characterEncoding=utf-8&useLegacyDatetimeCode=false&serverTimezone=UTC";
+			"jdbc:mysql://localhost:3306/shops?useUnicode=true&characterEncoding=utf-8&useLegacyDatetimeCode=false&serverTimezone=UTC";
 
 	public DbManager(String user, String pass) {
 		this.user = user;
